@@ -1,0 +1,31 @@
+header ul li{
+	display:inline-block;
+	padding:1em 2em;
+	text-align:center;
+	color:black;
+}
+header ul li a{
+	color:black;
+	text-decoration: blink;
+	font-family: 'Nunito', sans-serif;
+	font-size:120%;
+}
+
+header{
+	text-align:center;
+}	
+
+@media screen and (max-width:500px){
+	header{
+		display:none;
+	}
+}	
+
+.cafe-house{
+	text-align:center;
+	font-size:200%;
+	font-family: 'Ubuntu', sans-serif;
+}	
+.about{
+text-align:center;
+}	
