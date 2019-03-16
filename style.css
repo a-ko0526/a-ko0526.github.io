@@ -62,13 +62,6 @@ header{
 
 
 
-@media screen and (max-width:500px){
-	header{
-		display:none;
-	}
-	
-}	
-
 
 .dg img {
 	width: 100%;
@@ -89,8 +82,25 @@ header{
 	font-weight:bold;
 	font-family: 'Ubuntu', sans-serif;
 }	
+.detail p{
+font-size:100%;
+font-family:'Nunito', sans-serif;
+}	
+.detail img{
+	width:50%;
+	height:auto;
+	float:left;
+	margin-right:5%;
+}	
+
+.detail{
+max-width:80%; /* 要素の幅を指定する（固定幅ならwidth:600px;） */
+	margin:0 auto; /* ブロック要素の中央揃え */
+
+}	
 .dp{
 	text-align:center;
+	clear:both;
 }
 figure.cp_caption {
 	position: relative;
@@ -122,7 +132,7 @@ figure.cp_caption figcaption {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	padding: 100px 3em;
+	padding: 35% 3em;
 }
 figure.cp_caption figcaption::before {
 	position: absolute;
@@ -152,12 +162,14 @@ figure.cp_caption h2 {
 	        transition-delay: 0s;
 	-webkit-transform: translate3d(30%, 0%, 0);
 	        transform: translate3d(30%, 0%, 0);
+	font-size:140%;
 }
 figure.cp_caption p {
 	-webkit-transition-delay: 0s;
 	        transition-delay: 0s;
 	-webkit-transform: translate3d(0%, 30%, 0);
 	        transform: translate3d(0%, 30%, 0);
+			font-size:100%;
 }
 figure.cp_caption a {
 	position: absolute;
@@ -193,9 +205,6 @@ figure.cp_caption:hover figcaption::before {
 }
 
 
-@media screen and (max-width:500px){
-
-}
 #contents {
     width: 90%;
     min-width: 640px;
@@ -211,3 +220,66 @@ figure.cp_caption:hover figcaption::before {
     -o-box-pack: justify;
     -ms-box-pack: justify;  
 }
+
+
+#navToggle {
+    display:none;
+    position:absolute; 
+    right:13px;
+    top:13px;
+    width:30px;
+    height:25px;
+    cursor:pointer}
+#navToggle span {
+    display:block;
+    position:absolute;
+    width:100%;
+    border-bottom:solid 3px #999;
+    -webkit-transition: .35s ease-in-out;
+    -moz-transition: .35s ease-in-out;
+    transition: .35s ease-in-out}
+#navToggle span:nth-child(1) {top:0}
+#navToggle span:nth-child(2) {top:11px}
+#navToggle span:nth-child(3) {top:22px}
+
+
+@media screen and (max-width: 640px) {
+ 
+ 
+header{
+	display:none;
+	 background:rgba(255,255,255,.7);
+ width: 30%;
+
+
+}	
+header ul {
+	margin:0
+
+}
+header ul li {
+
+    display:block;
+    margin:0;
+	font-family: 'Nunito', sans-serif;
+	font-size:80%;
+		
+}
+header ul li a {
+	display:block
+
+}
+
+
+ 
+/* Toggle(Button) */
+/*display:noneだったボタンを display:blockにして表示します*/
+#navToggle {display:block;}
+ .openNav{
+	display:inherit;
+	 text-align:left;
+	  position:fixed;
+}	
+ 
+}
+

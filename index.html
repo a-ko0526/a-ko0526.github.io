@@ -7,9 +7,23 @@
 			
 		<title>atsuko's portfplio</title>
 		<style></style>
-	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>
+			$(function() {
+			$('#navToggle').click(function(){//headerに .openNav を付加・削除
+			$('header').toggleClass('openNav');
+			});
+			});
+</script>
 	</head>
 	<body bgcolor="f6f6f6">	
+		
+		<div id="navToggle">
+			<div>
+				<span></span> <span></span> <span></span>
+			</div>
+		</div><!--#navToggle END-->
+		
 		<header>
 			<nav>
 				<ul>
@@ -23,7 +37,15 @@
 
 		<div class="prof">
 			<p>Atsuko Miyoshi</p>
+		</div>
+		<br>
 		
+		<div class="detail">
+			<p><img src="atsuko-bla.jpg">
+			<nobr>wakayama-univ<br>
+			department system engineering<br>
+			major in Media Design<br>
+			from Ehime</nobr></p>			
 		</div>
 		<br>
 		<br>
@@ -85,7 +107,7 @@
 				<img src="osero-sq.jpg">
 					<figcaption>
 						<h2>Othello</h2>
-						<p>online othello game</p><a href="osero.html"></a>
+						<p>online othello game</p><a href="othello.html"></a>
 					</figcaption>	
 			</figure>
 			</div>
