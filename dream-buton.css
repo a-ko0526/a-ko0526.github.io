@@ -29,8 +29,15 @@ header{
 .about{
 text-align:center;
 font-family: 'Nunito', sans-serif;
+width:70%;
 }	
 .about p{
 font-family: 'M PLUS Rounded 1c', sans-serif;
+display:inline-block;
+ vertical-align:top;
 }	
 
+.about img{
+width:5%;
+height:auto;
+}	
