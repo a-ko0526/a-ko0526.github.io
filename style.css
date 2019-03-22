@@ -64,7 +64,7 @@ header{
 
 
 .dg img {
-	width: 100%;
+	width: 40%;
 	height: auto;
 }
 .box1{
@@ -106,9 +106,9 @@ figure.cp_caption {
 	position: relative;
 	overflow: hidden;
 	width: 100%;
-	min-width: 30%;
-	max-width: 30%;
-	max-height: 30%;
+	min-width: 280px;
+	max-width: 280px;
+	max-height: 280px;
 	margin: 10px 1%;
 	text-align: left;
 	color: ;
@@ -121,6 +121,7 @@ figure.cp_caption * {
 figure.cp_caption img {
 	width: 100%;
 	max-width: 100%;
+	height:auto;
 	-webkit-transition: opacity 0.35s;
 	        transition: opacity 0.35s;
 	opacity: 1;
