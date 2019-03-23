@@ -43,7 +43,7 @@ font-family: 'Nunito', sans-serif;
 .box {
 	display: inline;
 	text-align:center;
-		margin:10px;
+
 }
 .boxContainer img{
 	margin:0;
@@ -53,6 +53,7 @@ font-family: 'Nunito', sans-serif;
 	font-family: 'M PLUS Rounded 1c', sans-serif;
     display:inline-block;
 	vertical-align:top; 
-	font-size:130%;
+	font-size:150%;
+	font-weight:bold;
 }	
 	
