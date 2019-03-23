@@ -43,6 +43,7 @@ font-family: 'Nunito', sans-serif;
 .box {
 	display: inline;
 	text-align:center;
+		margin:10px;
 }
 .boxContainer img{
 	margin:0;
