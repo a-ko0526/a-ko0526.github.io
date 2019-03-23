@@ -34,7 +34,7 @@ font-family: 'Nunito', sans-serif;
 .about p{
 	font-family: 'M PLUS Rounded 1c', sans-serif;
  display:inline-block;
- vertical-align:top; /*縦方向の揃え位置を指定*/
+ vertical-align:top; 
 }
 
 .boxContainer{
@@ -50,7 +50,8 @@ font-family: 'Nunito', sans-serif;
 }	
 .box p{
 	font-family: 'M PLUS Rounded 1c', sans-serif;
- display:inline-block;
- vertical-align:top; /*縦方向の揃え位置を指定*/
+    display:inline-block;
+	vertical-align:top; 
+	font-size:130%;
 }	
 	
