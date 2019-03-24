@@ -82,6 +82,7 @@ header{
 	font-weight:bold;
 	font-family: 'Ubuntu', sans-serif;
 }	
+
 .detail p{
 font-size:100%;
 font-family:'Nunito', sans-serif;
@@ -91,11 +92,13 @@ font-family:'Nunito', sans-serif;
 	height:auto;
 	float:left;
 	margin-right:5%;
+	margin-bottom:70px;
 }	
 
 .detail{
 max-width:80%; /* 要素の幅を指定する（固定幅ならwidth:600px;） */
 	margin:0 auto; /* ブロック要素の中央揃え */
+	
 
 }	
 .dp{
@@ -209,7 +212,8 @@ figure.cp_caption:hover figcaption::before {
 #contents {
     width: 90%;
     min-width: 640px;
-    margin: 0 auto;
+  margin:0 auto;
+  
     display: box;
     display: -webkit-box;
     display: -moz-box;
@@ -220,6 +224,7 @@ figure.cp_caption:hover figcaption::before {
     -webkit-box-pack: justify;
     -o-box-pack: justify;
     -ms-box-pack: justify;  
+
 }
 
 
