@@ -32,8 +32,36 @@ header{
 }	
 .video{
 	width:80%;
-	text-align:center;
+	margin:0 auto;
 }	
 .about{
+font-family: 'Nunito', sans-serif;
 text-align:center;
+}	
+.about p{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	display:inline-block;
+	vertical-align:top; 
+	width:80%;
+}
+
+.boxContainer{
+	text-align:center;
+}	
+.box {
+	display: inline;
+	text-align:center;
+
+}
+.boxContainer img{
+	margin:0;
+	width:4%;
+}	
+.box p{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+    display:inline-block;
+	vertical-align:top; 
+	font-size:100%;
+	font-weight:bold;
+	margin-right:30px;
 }	

@@ -31,13 +31,33 @@ header{
 		width:40%;
 }	
 .about{
-text-align:center;
 font-family: 'Nunito', sans-serif;
+text-align:center;
 }	
-
 .about p{
-font-family: 'M PLUS Rounded 1c', sans-serif;
- display:inline-block;
- vertical-align:top; /*縦方向の揃え位置を指定*/
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	display:inline-block;
+	vertical-align:top; 
+	width:80%;
+}
 
+.boxContainer{
+	text-align:center;
+}	
+.box {
+	display: inline;
+	text-align:center;
+
+}
+.boxContainer img{
+	margin:0;
+	width:4%;
+}	
+.box p{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+    display:inline-block;
+	vertical-align:top; 
+	font-size:100%;
+	font-weight:bold;
+	margin-right:30px;
 }	
