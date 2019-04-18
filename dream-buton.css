@@ -59,4 +59,10 @@ text-align:center;
 	margin-right:30px;
 }	
 
-
+.video video{
+	width:20%;
+	margin:0 auto;
+}	
+.video{
+	text-align:center;
+}	

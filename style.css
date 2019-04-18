@@ -254,9 +254,9 @@ figure.cp_caption:hover figcaption::before {
  
 header{
 	display:none;
-	 background:rgba(255,255,255,.7);
- width: 30%;
-
+	background:rgba(255,255,255,.7);
+	width: 30%;
+	
 
 }	
 header ul {
@@ -275,8 +275,6 @@ header ul li a {
 	display:block
 
 }
-
-
  
 /* Toggle(Button) */
 /*display:noneだったボタンを display:blockにして表示します*/
@@ -285,6 +283,7 @@ header ul li a {
 	display:inherit;
 	 text-align:left;
 	  position:fixed;
+	  z-index:1;
 }	
  
 }
