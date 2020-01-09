@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<info>
+    <item>
+        <title>TOEIC(R) TEST 英文法 出るとこだけ！ TOEIC出るとこだけ！</title>
+        <author>小石裕子</author>
+        <summary></summary>
+        <img>toeic.jpg</img>
+        <price>￥2475</price>
+        <genre>専門</genre>
+
+
+    </item>
+
+    <item>
+        <title>TOEIC(R) テスト 至高の模試600問</title>
+        <author>ヒロ前田、テッド寺倉、ロス・タロック</author>
+        <summary></summary>
+        <img>412tpe-Fl2L.jpg</img>
+        <price>￥2860</price>
+        <genre>専門</genre>
+
+    </item>
+
+    <item>
+        <title>TOEIC(R) TEST 英文法 出るとこだけ！ TOEIC出るとこだけ！</title>
+        <author>小石裕子</author>
+        <summary></summary>
+        <img>toeic.jpg</img>
+        <price>￥2475</price>
+        <genre>一般</genre>
+    </item>
+
+    <item>
+        <title>??????</title>
+        <author>?????</author>
+        <summary></summary>
+        <img>toeic.jpg</img>
+        <price>￥2475</price>
+        <genre>一般</genre>
+    </item>
+
+    <item>
+        <title>ノワールをまとう女</title>
+        <author>?????</author>
+        <summary></summary>
+        <img>toeic.jpg</img>
+        <price>￥2475</price>
+        <genre>専門</genre>
+    </item>
+
+    <item>
+        <title>ノワールをまとう女</title>
+        <author>?????</author>
+        <summary></summary>
+        <img>toeic.jpg</img>
+        <price>￥2475</price>
+        <genre>一般</genre>
+    </item>
+
+    <item>
+        <title>ノワールをまとう女</title>
+        <author>?????</author>
+        <summary></summary>
+        <img>toeic.jpg</img>
+        <price>￥247</price>
+        <genre>一般</genre>
+    </item>
+
+</info>

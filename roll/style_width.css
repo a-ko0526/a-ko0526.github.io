@@ -1,0 +1,1000 @@
+body {
+    background-color: #582F21;
+}
+
+.text {
+    display: table-cell;
+    padding-right: 20px;
+    white-space: nowrap;
+}
+
+.img {
+    display: table-cell;
+    white-space: nowrap;
+
+}
+
+.hidden {
+    overflow-x: hidden;
+    height: 180px;
+}
+
+#button1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#box1:before {
+    content: "";
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 180px;
+    border-radius: 20px 20px 0 0;
+    background: #EEEEEE;
+    position: absolute;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.6));
+    top: -10px;
+    right: -10px;
+
+}
+
+#box1:after {
+    content: "";
+    display: block;
+    background: #C4C4C4;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    top: 150px;
+    right: -10px;
+}
+
+a#box1 {
+
+
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    height: 180px;
+    width: 280px;
+
+    margin-left: 50px;
+    margin-top: 20px;
+    vertical-align: middle;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+
+}
+
+a#box1 h3 {
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+a#box1 p {
+
+    height: 0;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+a#box1.ck {
+    width: 350px;
+
+}
+
+a#box1.sh {
+    width: 150px;
+
+}
+
+a#box1.max {
+    width: 700px;
+}
+
+a#box1.min {
+    width: 50px;
+}
+
+a#box1 img {
+    width: auto;
+    height: 25px;
+    padding-left: 10px;
+}
+
+#box2:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 180px;
+    border-radius: 20px 20px 0 0;
+    background: #EEEEEE;
+    position: absolute;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.6));
+    top: -10px;
+    right: -10px;
+
+}
+
+#box2:after {
+    content: "";
+    display: block;
+    background: #C4C4C4;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    top: 150px;
+    right: -10px;
+}
+
+a#box2 {
+
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: white;
+    height: 180px;
+    width: 280px;
+
+    margin-left: 50px;
+    margin-top: 20px;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+a#box2 h3 {
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+a#box2 p {
+    height: 0;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+a#box2.ck {
+    width: 350px;
+}
+
+a#box2.sh {
+    width: 150px;
+
+}
+
+a#box2.max {
+    width: 700px;
+}
+
+a#box2.min {
+    width: 50px;
+}
+
+a#box2 img {
+    width: auto;
+    height: 25px;
+    padding-left: 10px;
+}
+
+#box3:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 180px;
+    border-radius: 20px 20px 0 0;
+    background: #EEEEEE;
+    position: absolute;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.6));
+    top: -10px;
+    right: -10px;
+
+}
+
+#box3:after {
+    content: "";
+    display: block;
+    background: #C4C4C4;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    top: 150px;
+    right: -10px;
+}
+
+a#box3 {
+
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: white;
+    height: 180px;
+    width: 280px;
+
+    margin-left: 50px;
+    margin-top: 20px;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+a#box3 h3 {
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+a#box3 p {
+    height: 0;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+a#box3.ck {
+    width: 350px;
+}
+
+a#box3.sh {
+    width: 150px;
+
+}
+
+a#box3.max {
+    width: 700px;
+}
+
+a#box3.min {
+    width: 50px;
+}
+
+a#box3 img {
+    width: auto;
+    height: 25px;
+    padding-left: 10px;
+}
+
+#box4:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 180px;
+    border-radius: 20px 20px 0 0;
+    background: #EEEEEE;
+    position: absolute;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.6));
+    top: -10px;
+    right: -10px;
+
+}
+
+#box4:after {
+    content: "";
+    display: block;
+    background: #C4C4C4;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    top: 150px;
+    right: -10px;
+}
+
+a#box4 {
+
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: white;
+    height: 180px;
+    width: 280px;
+
+    margin-left: 50px;
+    margin-top: 20px;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+a#box4 h3 {
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+a#box4 p {
+    height: 0;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+a#box4 b {
+    height: 0;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+a#box4.ck {
+    width: 350px;
+}
+
+a#box4.sh {
+    width: 150px;
+}
+
+a#box4.max {
+    width: 700px;
+}
+
+a#box4.min {
+    width: 50px;
+}
+
+a#box4 img {
+    width: auto;
+    height: 25px;
+    padding-left: 10px;
+
+}
+
+#box5:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 180px;
+    border-radius: 20px 20px 0 0;
+    background: #EEEEEE;
+    position: absolute;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.6));
+    top: -10px;
+    right: -10px;
+
+}
+
+#box5:after {
+    content: "";
+    display: block;
+    background: #C4C4C4;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    top: 150px;
+    right: -10px;
+}
+
+a#box5 {
+
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: white;
+    height: 180px;
+    width: 280px;
+
+    margin-left: 50px;
+    margin-top: 20px;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+a#box5 h3 {
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+a#box5 p {
+    height: 0;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+a#box5.ck {
+    width: 350px;
+}
+
+a#box5.sh {
+    width: 150px;
+}
+
+a#box5.max {
+    width: 700px;
+}
+
+a#box5.min {
+    width: 50px;
+}
+
+a#box5 img {
+    width: auto;
+    height: 25px;
+    padding-left: 10px;
+}
+
+#box6:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 180px;
+    border-radius: 20px 20px 0 0;
+    background: #EEEEEE;
+    position: absolute;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.6));
+    top: -10px;
+    right: -10px;
+
+}
+
+#box6:after {
+    content: "";
+    display: block;
+    background: #C4C4C4;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    top: 150px;
+    right: -10px;
+}
+
+a#box6 {
+
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: white;
+    height: 180px;
+    width: 280px;
+
+    margin-left: 50px;
+    margin-top: 20px;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+a#box6 h3 {
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+a#box6 p {
+
+    height: 0;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+a#box6.ck {
+    width: 350px;
+}
+
+a#box6.sh {
+    width: 150px;
+}
+
+a#box6.max {
+    width: 700px;
+}
+
+a#box6.min {
+    width: 50px;
+}
+
+a#box6 img {
+    width: auto;
+    height: 25px;
+    padding-left: 10px;
+}
+
+#box7:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 180px;
+    border-radius: 20px 20px 0 0;
+    background: #EEEEEE;
+    position: absolute;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.6));
+    top: -10px;
+    right: -10px;
+
+}
+
+#box7:after {
+    content: "";
+    display: block;
+    background: #C4C4C4;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    top: 150px;
+    right: -10px;
+}
+
+a#box7 {
+
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: white;
+    height: 180px;
+    width: 280px;
+
+    margin-left: 50px;
+    margin-top: 20px;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+a#box7 h3 {
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+a#box7 p {
+    height: 0;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+a#box7.ck {
+    width: 350px;
+}
+
+a#box7.sh {
+    width: 150px;
+}
+
+a#box7.max {
+    width: 700px;
+}
+
+a#box7.min {
+    width: 50px;
+}
+
+a#box7 img {
+    width: auto;
+    height: 25px;
+    padding-left: 10px;
+}
+
+#box8:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 180px;
+    border-radius: 20px 20px 0 0;
+    background: #EEEEEE;
+    position: absolute;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.6));
+    top: -10px;
+    right: -10px;
+
+}
+
+#box8:after {
+    content: "";
+    display: block;
+    background: #C4C4C4;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    top: 150px;
+    right: -10px;
+}
+
+a#box8 {
+
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: white;
+    height: 180px;
+    width: 280px;
+
+    margin-left: 50px;
+    margin-top: 20px;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+a#box8 h3 {
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+a#box8 p {
+    height: 0;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+a#box8.ck {
+    width: 350px;
+}
+
+a#box8.sh {
+    width: 150px;
+}
+
+a#box8.max {
+    width: 700px;
+}
+
+a#box8.min {
+    width: 50px;
+}
+
+a#box8 img {
+    width: auto;
+    height: 25px;
+    padding-left: 10px;
+}
+
+#box9:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 180px;
+    border-radius: 20px 20px 0 0;
+    background: #EEEEEE;
+    position: absolute;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.6));
+    top: -10px;
+    right: -10px;
+
+}
+
+#box9:after {
+    content: "";
+    display: block;
+    background: #C4C4C4;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    top: 150px;
+    right: -10px;
+}
+
+a#box9 {
+
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: white;
+    height: 180px;
+    width: 280px;
+
+    margin-left: 50px;
+    margin-top: 20px;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+a#box9 h3 {
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+a#box9 p {
+    height: 0;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+a#box9.ck {
+    width: 350px;
+}
+
+a#box9.sh {
+    width: 150px;
+}
+
+a#box9.max {
+    width: 700px;
+}
+
+a#box9.min {
+    width: 50px;
+}
+
+a#box9 img {
+    width: auto;
+    height: 25px;
+    padding-left: 10px;
+}
+
+/*たたまれた後のタイトル表示*/
+
+a#box1.min:before {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+
+    animation: title_1 1s both;
+    content: "ジャンル";
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+
+
+}
+
+@keyframes title_2 {
+    from {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 800;
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+
+    to {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 800;
+        content: "本の種類";
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+}
+
+a#box2.min:before {
+    animation: title_2 1s both;
+}
+
+@keyframes title_3 {
+    from {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 800;
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+
+    to {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 800;
+        content: "新入荷";
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+}
+
+
+a#box3.min:before {
+    animation: title_3 1s both;
+}
+
+@keyframes title_4 {
+    from {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 800;
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+
+    to {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 800;
+        content: "芥川賞＆直木賞";
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+}
+
+a#box4.min:before {
+    animation: title_4 1s both;
+}
+
+@keyframes title_5 {
+    from {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 800;
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+
+    to {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 800;
+        content: "本屋大賞";
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+}
+
+a#box5.min:before {
+    animation: title_5 1s both;
+}
+
+@keyframes title_6 {
+    from {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 800;
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+
+    to {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 800;
+        content: "江戸川乱歩賞";
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+}
+
+a#box6.min:before {
+    animation: title_6 1s both;
+}
+
+@keyframes title_7 {
+    from {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 800;
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+
+    to {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 800;
+        content: "爆笑マンガ特集";
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+}
+
+a#box7.min:before {
+    animation: title_7 1s both;
+}
+
+@keyframes title_8 {
+    from {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 800;
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+
+    to {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 800;
+        content: "ジャニーズ嵐特集";
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+}
+
+a#box8.min:before {
+    animation: title_8 1s both;
+}
+
+@keyframes title_9 {
+    from {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 800;
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+
+    to {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 800;
+        content: "秋の夜長のお供に";
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+}
+
+a#box9.min:before {
+    animation: title_9 1s both;
+}
