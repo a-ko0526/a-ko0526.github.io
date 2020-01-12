@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script src="animation.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+
+    <title>books recimmend</title>
+</head>
+
+<body>
+    <div id="result">
+        <div id="result_container1">
+
+        </div>
+        <div id="result_container2"></div>
+        <div id="result_container3"></div>
+        <div id="result_container4"></div>
+        <div id="result_container5"></div>
+        <div id="result_container6"></div>
+        <div id="result_container7"></div>
+        <div id="result_container8"></div>
+        <div id="result_container9"></div>
+        <div id="result_container_mix"></div>
+    </div>
+    <a onclick="start(this)" id="box1">
+        <div class="hidden">
+            <div class="img">
+                <img src="img/books.png" alt="icon">
+            </div>
+            <div class="img">
+                <h3>ジャンル</h3>
+            </div>
+            <br>
+            <div class="text_container">
+                <div class="text">
+                    <p id="color1">一般</p><br>
+                    <p>教養</p><br>
+                    <p>実用</p><br>
+                    <p>専門</p>
+                </div>
+                <div class="text">
+                    <p>検定教科書・消費税非課税品・その他</p><br>
+                    <p>婦人</p><br>
+                    <p>学参Ⅰ（小中学生）</p><br>
+                    <p>学参Ⅱ（高校生）</p>
+                </div>
+                <div class="text">
+                    <p>児童</p><br>
+                    <p>雑誌扱い</p>
+                </div>
+            </div>
+            <div id="time_bar1"></div>
+        </div>
+    </a>
+
+    <a onclick="start(this)" id="box2">
+        <div class="hidden">
+            <div class="img">
+                <img src="img/book.png" alt="icon">
+            </div>
+            <div class="img">
+                <h3>本の種類</h3>
+            </div>
+            <br>
+            <div class="text_container">
+                <div class="text">
+                    <p>単行本</p><br>
+                    <p>文庫</p><br>
+                    <p>新書</p><br>
+                    <p>全集・双書</p>
+                </div>
+                <div class="text">
+                    <p>ムック・その他</p><br>
+                    <p>事・辞典</p><br>
+                    <p>図鑑</p><br>
+                    <p>絵本</p>
+                </div>
+                <div class="text">
+                    <p>コミック</p>
+                </div>
+            </div>
+            <div id="time_bar2"></div>
+        </div>
+    </a>
+    <a onclick="start(this)" id="box3">
+        <div class="hidden">
+            <div class="img">
+                <img src="img/new.png" alt="icon">
+            </div>
+            <div class="img">
+                <h3>新刊</h3>
+            </div>
+            <br>
+            <div class="text_container">
+                <div class="text">
+                    <p>わが殿 上</p><br>
+                    <p>デッドライン</p><br>
+                    <p>わが殿 下</p><br>
+                    <p>ぷくぷく</p>
+                </div>
+                <div class="text">
+                    <p>古くてあたらしい仕事</p><br>
+                    <p>聡乃学習</p><br>
+                    <p>13坪の本屋の奇跡「闘う、そしてつながる」</p><br>
+                    <p>あたしたち、海へ</p>
+                </div>
+                <div class="text">
+                    <p>里奈の物語</p><br>
+                    <p>靴ひも</p><br>
+                    <p>トヨトミの逆襲</p><br>
+                    <p>別れの季節</p><br>
+                    <p>信長、天が誅する</p>
+                </div>
+            </div>
+            <div id="time_bar3"></div>
+        </div>
+    </a>
+    <br />
+    <a onclick="start(this)" id="box4">
+        <div class="hidden">
+            <div class="img">
+                <img src="img/winner.png" alt="icon">
+            </div>
+            <div class="img">
+                <h3>芥川賞＆直木賞</h3>
+            </div>
+            <br>
+            <div class="text_container">
+                <div class="text">
+                    <p><b>受賞</b></p><br>
+                    <p>むらさきスカートの女</p><br>
+                    <p>渦　妹背山婦女庭訓練魂結び</p>
+                </div>
+                <div class="text">
+                    <p><b>ノミネート</b></p><br>
+                    <p>カム・ギャザー・ラウンド・ピープル</p><br>
+                    <p>ラッコの家</p><br>
+                    <p>五つ数えれば三日月が</p>
+                </div>
+                <div class="text">
+                    <p>百の夜は跳ねて</p><br>
+                    <p>マジカルグラン</p><br>
+                    <p>平陽の月</p><br>
+                    <p>落下</p>
+                </div>
+            </div>
+            <div id="time_bar4"></div>
+        </div>
+    </a>
+    <a onclick="start(this)" id="box5">
+        <div class="hidden">
+            <div class="img">
+                <img src="img/winner.png" alt="icon">
+            </div>
+            <div class="img">
+                <h3>本屋大賞</h3>
+            </div>
+            <br>
+            <div class="text_container">
+                <div class="text">
+                    <p><b>大賞</b></p><br>
+                    <p>そして、バトンは渡された</p><br>
+                    <p><b>2位</b> ひと</p><br>
+                    <p><b>3位</b> ベルリンは晴れているか</p>
+                </div>
+                <div class="text">
+                    <p><b>4位</b> 熱帯</p><br>
+                    <p><b>5位</b> ある男</p><br>
+                    <p><b>6位</b> さざなみのよる</p><br>
+                    <p><b>7位</b> 愛なき世界</p>
+                </div>
+                <div class="text">
+                    <p><b>8位</b> ひとつむぎの手</p><br>
+                    <p><b>9位</b> 火のないところに煙は</p><br>
+                    <p><b>10位</b> フーガはユーガ</p><br>
+                </div>
+                <div id="time_bar5"></div>
+            </div>
+        </div>
+
+    </a>
+    <a onclick="start(this)" id="box6">
+        <div class="hidden">
+            <div class="img">
+                <img src="img/king.png" alt="icon">
+            </div>
+            <div class="img">
+                <h3>江戸川乱歩賞</h3>
+            </div>
+            <br>
+            <div class="text_container">
+                <div class="text">
+                    <p><b>受賞</b></p><br>
+                    <p id="color2">ノワールをまとう女</p><br>
+                    <p><b>候補作</b></p><br>
+                    <p>日陰蝶</p>
+
+                </div>
+                <div class="text">
+                    <p>消尽屋</p><br>
+                    <p>歌舞伎町ON THW RUN</p><br>
+                    <p>シャドウワーク</p><br>
+                </div>
+                <div class="text">
+                    <p><b>2018年受賞</b></p><br>
+                    <p>到達不能局</p><br>
+                    <p><b>2018年候補作</b></p><br>
+                    <p>魔窟の墓堀人</p>
+                </div>
+            </div>
+            <div id="time_bar6"></div>
+        </div>
+    </a>
+
+    <br />
+    <a onclick="start(this)" id="box7">
+        <div class="hidden">
+            <div class="img">
+                <img src="img/good.png" alt="icon">
+            </div>
+            <div class="img">
+                <h3>爆笑マンガ特集</h3>
+            </div>
+            <br>
+            <div class="text_container">
+                <div class="text">
+                    <p>鴻池剛と猫のぽんた ニャアアアン！</p><br>
+                    <p>主に泣いてます</p><br>
+                    <p>ギャグマンガ日和</p><br>
+                    <p>あそびあそばせ</p><br>
+
+                </div>
+                <div class="text">
+                    <p>スナックバス江</p><br>
+                    <p>金剛寺さんは面倒臭い</p><br>
+                    <p>保安官エヴァンスの嘘</p><br>
+                    <p>かぐや様は告らせたい～天才たちの恋愛頭脳戦～</p>
+                </div>
+                <div class="text">
+                    <p>じけんじゃけん</p><br>
+                    <p>パタリロ！</p><br>
+                    <p>斉木楠夫のサイ難</p><br>
+                    <p>ボボボーボ・ボーボボ</p>
+                </div>
+            </div>
+            <div id="time_bar7"></div>
+        </div>
+    </a>
+
+    <a onclick="start(this)" id="box8">
+        <div class="hidden">
+            <div class="img">
+                <img src="img/famous.png" alt="icon">
+            </div>
+            <div class="img">
+                <h3>ジャニーズ嵐特集</h3>
+            </div>
+            <br>
+            <div class="text_container">
+                <div class="text">
+                    <p>嵐 楽曲完全ガイド</p><br>
+                    <p>嵐5人の今、そして未来</p><br>
+                    <p>嵐コンサート心に響くMC集</p><br>
+                    <p>嵐史［神楽坂ジャニーズ巡礼団］</p>
+                </div>
+                <div class="text">
+                    <p>嵐という生き方</p><br>
+                    <p>ハタチの嵐！</p><br>
+                    <p>嵐5✕永遠 5人の絆</p><br>
+                    <p>嵐photo & episodo a masterpiece!</p>
+                </div>
+                <div class="text">
+                    <p>みらいの嵐 ARASHI 20th Anniversary 1 </p><br>
+                    <p>嵐にマナブ～ポジティブになれる100のヒント～</p><br>
+                    <p>嵐のお宝フォトBOOK</p><br>
+                    <p>嵐大野くんのやる気スイッチ</p>
+                </div>
+            </div>
+            <div id="time_bar8"></div>
+        </div>
+    </a>
+    <a onclick="start(this)" id="box9">
+        <div class="hidden">
+            <div class="img">
+                <img src="img/recomend.png" alt="icon">
+            </div>
+            <div class="img">
+                <h3>秋の夜長のおともに</h3>
+            </div>
+            <br>
+            <div class="text_container">
+                <div class="text">
+                    <p>真夜中</p><br>
+                    <p>ドミトリーともきんす</p><br>
+                    <p>私の保存食ノート</p><br>
+                    <p>自然に触れて取り戻す　人間の基本</p>
+                </div>
+                <div class="text">
+                    <p>漁港の肉子ちゃん</p><br>
+                    <p>イルカ</p><br>
+                    <p>思いを伝えると言うこと</p><br>
+                    <p>世界のすべての七月</p>
+                </div>
+                <div class="text">
+                    <p>KANA'S STANDARD</p><br>
+                    <p>アカネちゃんのなみだの海</p><br>
+                    <p>おべんとうの時間</p><br>
+                    <p>泣き虫チエ子さん</p>
+                </div>
+            </div>
+            <div id="time_bar9"></div>
+        </div>
+    </a>
+    <button type="button" name="name" value="value" onclick="reduce(this)" id="button1">reduce</button>
+    <button type="button" name="name" value="value" onclick="last()" id="button2">result</button>
+
+</body>
+
+</html>

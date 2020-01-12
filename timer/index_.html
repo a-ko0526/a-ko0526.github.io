@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="animation.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+
+    <title>books recimmend</title>
+</head>
+
+<body>
+    <div id="result">
+        <div id="result_container">
+
+        </div>
+        <div id="result_container1">
+
+        </div>
+
+    </div>
+    <div id="subject">
+        <h1>TOEIC</h1>
+    </div>
+    <a onclick="start(this)" id="box1" class="eye_form">
+        <div class="hidden">
+            <div class="img">
+                <img src="img/king.png" alt="icon">
+            </div>
+            <div class="img">
+                <h3>形態</h3>
+            </div>
+            <br>
+            <div id="text_container">
+                <div class="text1">
+
+
+                    <p id="ed2"><input id="check43" type="checkbox" name="
+                            interest" value="43" onchange="foo(this)">
+                        <label for="check43" class="checkbox01">
+                            単行本
+                        </label>
+                    </p><br>
+                    <p id="ed1">
+                        <input id="check44" type="checkbox" name="
+                            interest" value="44" onchange="foo(this)">
+                        <label for="check44" class="checkbox01"></label>文庫本
+                    </p><br>
+                    <p id="nom">
+                        <input id="check45" type="checkbox" name="
+                            interest" value="45" onchange="foo(this)">
+                        <label for="check45" class="checkbox01"></label>
+                        新書
+                    </p><br>
+                    <p id="ed2">
+                        <input id="check46" type="checkbox" name="
+                            interest" value="46" onchange="foo(this)">
+                        <label for="check46" class="checkbox01"></label>コミック
+                    </p>
+
+                </div>
+                <div class="text2">
+                    <p id="ed3">
+                        <input id="check47" type="checkbox" name="
+                            interest" value="47" onchange="foo(this)">
+                        <label for="check47" class="checkbox01"></label>雑誌
+                    </p><br>
+                    <p id="ed4">
+                        <input id="check48" type="checkbox" name="
+                            interest" value="48" onchange="foo(this)">
+                        <label for="check48" class="checkbox01"></label>ムック
+                    </p><br>
+                    <p id="ed5">
+                        <input id="check49" type="checkbox" name="
+                            interest" value="49" onchange="foo(this)">
+                        <label for="check49" class="checkbox01"></label>ＣＤブック
+
+                    </p><br>
+                </div>
+
+            </div>
+            <div id="time_bar1"></div>
+        </div>
+    </a>
+
+
+    <a onclick="start(this)" id="box2">
+        <div class="hidden">
+            <div class="img">
+                <img src="img/book.png" alt="icon">
+            </div>
+            <div class="img">
+                <h3>目標得点</h3>
+            </div>
+            <br>
+            <div id="text_container">
+                <div class="text1">
+                    <p id="type1"><input id="check11" type="checkbox" name="
+                            interest" value="11" onchange="foo(this)">
+                        <label for="check11" class="checkbox01"></label>470点未満
+
+                    </p><br>
+                    <p id="type2">
+                        <input id="check12" type="checkbox" name="
+                            interest" value="12" onchange="foo(this)">
+                        <label for="check12" class="checkbox01"></label>470点以上
+                    </p><br>
+                    <p id="type3">
+                        <input id="check13" type="checkbox" name="
+                            interest" value="13" onchange="foo(this)">
+                        <label for="check13" class="checkbox01"></label>600点以上
+                    </p><br>
+                    <p id="type4">
+                        <input id="check0" type="checkbox" name="
+                            interest" value="13" onchange="foo(this)">
+                        <label for="check0" class="checkbox01"></label>730点以上
+                    </p>
+                </div>
+                <div class="text2">
+                    <p id="type5">
+                        <input id="check14" type="checkbox" name="
+                            interest" value="14" onchange="foo(this)">
+                        <label for="check14" class="checkbox01"></label>860点以上
+                    </p><br>
+                    <p id="type6">
+                        <input id="check15" type="checkbox" name="
+                            interest" value="15" onchange="foo(this)">
+                        <label for="check15" class="checkbox01"></label>900点以上
+                    </p>
+                </div>
+
+            </div>
+            <div id="time_bar2"></div>
+        </div>
+    </a>
+    <br>
+    <a onclick="start(this)" id="box3">
+        <div class="hidden">
+            <div class="img">
+                <img src="img/new.png" alt="icon">
+            </div>
+            <div class="img">
+                <h3>新刊</h3>
+            </div>
+            <br>
+            <div id="text_container">
+                <div class="text1">
+                    <p id="new1">
+                        <input id="check19" type="checkbox" name="
+                            interest" value="19" onchange="foo(this)">
+                        <label for="check19" class="checkbox01"></label>TOEIC L&R TEST [Part 7 長文読解] 完全攻略 正解が見えてくるキム・デギュン メソッド
+                    </p><br>
+                    <p id="new2">
+                        <input id="check20" type="checkbox" name="
+                            interest" value="20" onchange="foo(this)">
+                        <label for="check20" class="checkbox01"></label>考えて解くTOEIC L&R TEST 実践演習
+                    </p><br>
+                    <p id="new3">
+                        <input id="check21" type="checkbox" name="
+                            interest" value="21" onchange="foo(this)">
+                        <label for="check21" class="checkbox01"></label>BASIC TEXTBOOK FOR THE TOEIC L&R TEST
+                    </p><br>
+                    <p id="new4"><input id="check22" type="checkbox" name="
+                            interest" value="22" onchange="foo(this)">
+                        <label for="check22" class="checkbox01"></label>極めろ!リーディング解答力 TOEIC® L & R TEST PART 7
+                    </p>
+                </div>
+                <div class="text2">
+                    <p id="new5">
+                        <input id="check23" type="checkbox" name="
+                            interest" value="23" onchange="foo(this)">
+                        <label for="check23" class="checkbox01"></label>>TOEIC (R) SPEAKING テスト 問題集 新形式完全対応版
+                    </p><br>
+                    <p id="new6">
+                        <input id="check24" type="checkbox" name="
+                            interest" value="24" onchange="foo(this)">
+                        <label for="check24" class="checkbox01"></label>TOEIC L&Rテスト 猛牛の文法問題
+                    </p><br>
+                    <p id="new7">
+                        <input id="check25" type="checkbox" name="
+                            interest" value="25" onchange="foo(this)">
+                        <label for="check25" class="checkbox01"></label>短期集中講座! TOEIC(R) L&R TEST 英文法 (アスカカルチャー)
+                    </p><br>
+                    <p id="new8">
+                        <input id="check26" type="checkbox" name="
+                            interest" value="26" onchange="foo(this)">
+                        <label for="check26" class="checkbox01"></label>可算名詞（単複）・不可算名詞を中心に　ちょっと悔しい２択の英文法問題（ECL・TOEIC L&R対策）シリーズ ちょっと悔しい2択の英文法問題
+                    </p>
+                </div>
+                <div class="text3">
+                    <p id="new9">
+                        <input id="check27" type="checkbox" name="
+                            interest" value="27" onchange="foo(this)">
+                        <label for="check27" class="checkbox01"></label>接続詞と前置詞を中心に ちょっと悔しい２択の英文法問題（ECL・TOEIC L&R対策）
+                    </p><br>
+
+                    <p id="new10">
+                        <input id="check28" type="checkbox" name="
+                            interest" value="28" onchange="foo(this)">
+                        <label for="check28" class="checkbox01"></label>形容詞と副詞を中心に　ちょっと悔しい２択の英文法問題（ECL・TOEIC L&R対策）
+                    </p><br>
+                    <p id="new11">
+                        <input id="check29" type="checkbox" name="
+                            interest" value="29" onchange="foo(this)">
+                        <label for="check29" class="checkbox01"></label>マツキーのTOEIC(R)Test 文法・語法　超スピード講座第１回を公開
+                    </p><br>
+                    <p id="new12">
+                        <input id="check30" type="checkbox" name="
+                            interest" value="30" onchange="foo(this)">
+                        <label for="check30" class="checkbox01"></label>TOEIC L&Rテスト 目標スコア奪取の模試
+                    </p>
+
+                </div>
+            </div>
+            <div id="time_bar3"></div>
+        </div>
+    </a>
+
+
+    <a onclick="start(this)" id="box4">
+        <div class="hidden">
+            <div class="img">
+                <img src="img/pen.png" alt="icon">
+            </div>
+            <div class="img">
+                <h3>著者</h3>
+            </div>
+            <br>
+            <div id="text_container">
+                <div class="text1">
+                    <p id="book1">
+                        <input id="check32" type="checkbox" name="
+                            interest" value="32" onchange="foo(this)">
+                        <label for="check32" class="checkbox01"></label>
+                        ヒロ前田
+                    </p><br>
+                    <p id="book2">
+                        <input id="check33" type="checkbox" name="
+                            interest" value="33" onchange="foo(this)">
+                        <label for="check33" class="checkbox01"></label>ロス・タロック
+                    </p><br>
+                    <p id="book3"><input id="check34" type="checkbox" name="
+                            interest" value="34" onchange="foo(this)">
+                        <label for="check34" class="checkbox01"></label>
+                        テッド寺倉
+                    </p><br>
+                    <p id="book4">
+                        <input id="check35" type="checkbox" name="
+                            interest" value="35" onchange="foo(this)">
+                        <label for="check35" class="checkbox01"></label>
+                        小石裕子
+                    </p>
+                </div>
+                <div class="text2">
+                    <p id="book5">
+                        <input id="check36" type="checkbox" name="
+                            interest" value="36" onchange="foo(this)">
+                        <label for="check36" class="checkbox01"></label>
+                        早川孝治
+                    </p><br>
+                    <p id="book6">
+                        <input id="check37" type="checkbox" name="
+                            interest" value="37" onchange="foo(this)">
+                        <label for="check37" class="checkbox01"></label>
+                        横本勝也
+                    </p><br>
+                    <p id="book7">
+                        <input id="check38" type="checkbox" name="
+                            interest" value="38" onchange="foo(this)">
+                        <label for="check38" class="checkbox01"></label>
+                        安河内哲也
+                    </p><br>
+                    <p id="book8">
+                        <input id="check39" type="checkbox" name="
+                            interest" value="39" onchange="foo(this)">
+                        <label for="check39" class="checkbox01"></label>
+                        宮野智靖
+                    </p>
+                </div>
+                <div class="text3">
+                    <p id="book9">
+                        <input id="check40" type="checkbox" name="
+                            interest" value="40" onchange="foo(this)">
+                        <label for="check40" class="checkbox01"></label>
+                        神崎正哉
+                    </p><br>
+                    <p id="book10">
+                        <input id="check41" type="checkbox" name="
+                            interest" value="41" onchange="foo(this)">
+                        <label for="check41" class="checkbox01"></label>
+                        小池直己
+                    </p><br>
+                    <p id="book11">
+                        <input id="check42" type="checkbox" name="
+                            interest" value="42" onchange="foo(this)">
+                        <label for="check42" class="checkbox01"></label>
+                        中村澄子
+                    </p><br>
+                    <p id="book12">
+                        <input id="check424242" type="checkbox" name="
+                            interest" value="424242" onchange="foo(this)">
+                        <label for="check424242" class="checkbox01"></label>
+                        石井 辰哉
+                    </p>
+                </div>
+            </div>
+            <div id="time_bar4"></div>
+        </div>
+    </a>
+    <br />
+    <a onclick="start(this)" id="box5">
+        <div class="hidden">
+            <div class="img">
+                <img src="img/building.png" alt="icon">
+            </div>
+            <div class="img">
+                <h3>TOEIC大手出版社</h3>
+            </div>
+            <br>
+
+            <div id="text_container">
+
+                <div class="text1">
+                    <p id="genre1">
+                        <input id="check1" type="checkbox" name="
+                            interest" value="1" onchange="foo(this)">
+                        <label for="check1" class="checkbox01"></label>アルク
+
+                    </p><br>
+                    <p id="genre2">
+                        <input id="check2" type="checkbox" name="
+                            interest" value="2" onchange="foo(this)">
+                        <label for="check2" class="checkbox01"></label>朝日新聞出版
+
+                    </p><br>
+                    <p id="genre3">
+                        <input id="check3" type="checkbox" name="
+                            interest" value="3" onchange="foo(this)">
+                        <label for="check3" class="checkbox01"></label>アスク出版
+
+                    </p><br>
+                    <p id="genre4"> <input id="check4" type="checkbox" name="
+                            interest" value="4" onchange="foo(this)">
+                        <label for="check4" class="checkbox01"></label>西東社
+
+                    </p>
+                </div>
+                <div class="text2">
+                    <p id="genre5">
+                        <input id="check5" type="checkbox" name="
+                            interest" value="5" onchange="foo(this)">
+                        <label for="check5" class="checkbox01"></label>ジャパンタイムズ
+
+                    </p><br>
+                    <p id="genre6">
+                        <input id="check6" type="checkbox" name="
+                            interest" value="6" onchange="foo(this)">
+                        <label for="check6" class="checkbox01"></label>Z会
+
+                    </p><br>
+                    <p id="genre7">
+                        <input id="check7" type="checkbox" name="
+                            interest" value="7" onchange="foo(this)">
+                        <label for="check7" class="checkbox01"></label>すばる舎
+                    </p><br>
+                    <p id="genre8">
+                        <input id="check8" type="checkbox" name="
+                            interest" value="8" onchange="foo(this)">
+                        <label for="check8" class="checkbox01">
+                        </label>
+                        旺文社</p>
+                </div>
+                <div class="text3">
+                    <p id="genre9">
+                        <input id="check9" type="checkbox" name="
+                            interest" value="9" onchange="foo(this)">
+                        <label for="check9" class="checkbox01"></label>桐原書店
+
+                    </p><br>
+                    <p id="genre10">
+                        <input id="check10" type="checkbox" name="
+                            interest" value="10" onchange="foo(this)">
+                        <label for="check10" class="checkbox01"></label>三修社
+
+                    </p><br>
+                    <p id="genre11">
+                        <input id="check222" type="checkbox" name="
+                            interest" value="222" onchange="foo(this)">
+                        <label for="check222" class="checkbox01"></label>ベレ出版
+
+                    </p><br>
+                    <p id="genre12">
+                        <input id="check223" type="checkbox" name="
+                            interest" value="223" onchange="foo(this)">
+                        <label for="check223" class="checkbox01"></label>成美堂出版
+
+                    </p>
+                </div>
+
+            </div>
+            <div id="time_bar5"></div>
+        </div>
+    </a>
+
+
+    <a onclick="start(this)" id="box6">
+        <div class="hidden">
+            <div class="img">
+                <img src="img/recomend.png" alt="icon">
+            </div>
+            <div class="img">
+                <h3>出るとこ単語集</h3>
+            </div>
+            <br>
+            <div id="text_container">
+                <div class="text1">
+                    <p id="comic1">
+                        <input id="check53" type="checkbox" name="
+                            interest" value="53" onchange="foo(this)">
+                        <label for="check53" class="checkbox01"></label>TOEIC BRIDGE Testはじめてでも150点突破
+                    </p><br>
+                    <p id="comic2">
+                        <input id="check54" type="checkbox" name="
+                            interest" value="54" onchange="foo(this)">
+                        <label for="check54" class="checkbox01"></label>テスト出る語句1800+[MP3音声付]
+                    </p><br>
+                    <p id="comic3">
+                        <input id="check55" type="checkbox" name="
+                            interest" value="55" onchange="foo(this)">
+                        <label for="check55" class="checkbox01"></label>スコアアップ英単語1000
+                    </p><br>
+                    <p id="comic4">
+                        <input id="check56" type="checkbox" name="
+                            interest" value="56" onchange="foo(this)">
+                        <label for="check56" class="checkbox01"></label>出る単特急 金のフレーズ (TOEIC TEST 特急シリーズ)
+                    </p><br>
+
+                </div>
+                <div class="text2">
+                    <p id="comic5">
+                        <input id="check57" type="checkbox" name="
+                            interest" value="57" onchange="foo(this)">
+                        <label for="check57" class="checkbox01"></label>公式ボキャブラリーブック (日本語)
+                    </p><br>
+                    <p id="comic6">
+                        <input id="check58" type="checkbox" name="
+                            interest" value="58" onchange="foo(this)">
+                        <label for="check58" class="checkbox01"></label>本番そのままプラチナボキャブラリー
+                    </p><br>
+                    <p id="comic7">
+                        <input id="check90" type="checkbox" name="
+                            interest" value="90" onchange="foo(this)">
+                        <label for="check90" class="checkbox01"></label>速読英熟語 (日本語)
+                    </p><br>
+                    <p id="comic8">
+                        <input id="check91" type="checkbox" name="
+                            interest" value="91" onchange="foo(this)">
+                        <label for="check91" class="checkbox01"></label>マンガで攻略！ はじめてのTOEIC(R)テスト 全パート対策【CD無しバージョン】
+                    </p>
+                </div>
+                <div class="text3">
+                    <p id="comic9">
+                        <input id="check59" type="checkbox" name="
+                            interest" value="59" onchange="foo(this)">
+                        <label for="check59" class="checkbox01"></label>ぜったい英単語 毎回出る頻出単語とスコアアップの急所
+                    </p><br>
+                    <p id="comic10">
+                        <input id="check60" type="checkbox" name="
+                            interest" value="60" onchange="foo(this)">
+                        <label for="check60" class="checkbox01"></label>出るとこ集中10日間！ TOEIC(R)テスト 文法編
+                    </p><br>
+                    <p id="comic11">
+                        <input id="check61" type="checkbox" name="
+                            interest" value="61" onchange="foo(this)">
+                        <label for="check61" class="checkbox01"></label>イラストだから覚えられる 日常生活や仕事で使う英単語1200 (音声DL付) (
+                    </p><br>
+                    <p id="comic12">
+                        <input id="check62" type="checkbox" name="
+                            interest" value="62" onchange="foo(this)">
+                        <label for="check62" class="checkbox01"></label>TOEICテスト 公式問題で学ぶボキャブラリー
+                    </p>
+                </div>
+            </div>
+            <div id="time_bar6"></div>
+        </div>
+    </a>
+
+
+
+    <button type="button" name="name" value="value" onclick="result()" id="button1" disabled="disabled">おすすめを表示する</button>
+    <!-- <button type="button" name="name" value="value" onclick="reduce(this)" id="button3">reduce</button> -->
+
+
+</body>
+
+</html>

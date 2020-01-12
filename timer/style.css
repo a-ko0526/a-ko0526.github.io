@@ -1,0 +1,1273 @@
+/*共通*/
+body {
+    background-color: #BF926B;
+
+}
+
+#subject h1 {
+    margin-top: 0;
+    margin-bottom: -24px;
+    margin-left: 50px;
+    color: white;
+
+}
+
+#subject.bye {
+    animation: fade_out 0.4s both;
+
+}
+
+/*text設定*/
+.text1 {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    white-space: nowrap;
+    width: 180px;
+    height: 300px;
+    margin-top: -15px;
+}
+
+/*ホバーでカラー変更
+#color:hover {
+    color: red;
+}
+*/
+
+
+.text1 p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: -15px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.text2 {
+    position: absolute;
+    left: 180px;
+    display: inline-block;
+    white-space: nowrap;
+    width: 180px;
+    height: 300px;
+    margin-top: -15px;
+}
+
+.text2 p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: -15px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.text3 {
+    display: inline-block;
+    position: absolute;
+    left: 360px;
+    white-space: nowrap;
+    width: 180px;
+    height: 300px;
+    margin-top: -15px;
+    position: relative;
+
+}
+
+.text3 p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: -15px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+label {
+    margin-right: -30px;
+}
+
+.text_container {
+    display: flex;
+
+}
+
+
+
+
+@keyframes fade_out {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+
+    }
+}
+
+
+@keyframes timer {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 560px;
+    }
+}
+
+.img {
+    display: table-cell;
+    white-space: nowrap;
+
+}
+
+.hidden {
+    overflow: hidden;
+    height: 190px;
+    z-index: 2;
+
+}
+
+
+#button1 {
+    position: absolute;
+    top: 5px;
+    right: 40px;
+
+    font-size: 16px;
+    color: #FFF;
+    font-weight: bold;
+    padding: 5px 24px;
+    border-radius: 4px;
+}
+
+#button1.bye {
+    animation: fade_out 0.4s both;
+}
+
+
+/*box*/
+
+
+#box1:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -4px;
+    z-index: 2;
+}
+
+#box1:before {
+    content: "";
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 190px;
+    background: #8C5946;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    z-index: 1;
+
+
+}
+
+
+a#box1 {
+
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: white;
+    height: 190px;
+    width: 380px;
+
+    margin-left: 50px;
+    margin-top: 17px;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+a#box1 h3 {
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+
+
+a#box1 img {
+    width: auto;
+    height: 25px;
+    padding-left: 10px;
+}
+
+#box2:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -4px;
+    z-index: 2;
+}
+
+#box2:before {
+    content: "";
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 190px;
+    background: #8C5946;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    z-index: 1;
+
+}
+
+
+
+
+a#box2 {
+
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: white;
+    height: 190px;
+    width: 380px;
+    margin-left: 50px;
+    margin-top: 17px;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+
+
+
+    position: absolute;
+
+    left: 620px;
+}
+
+a#box2 h3 {
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+
+
+
+a#box2 img {
+    width: auto;
+    height: 25px;
+    padding-left: 10px;
+}
+
+#box3:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -4px;
+    z-index: 2;
+}
+
+#box3:before {
+    content: "";
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 190px;
+    background: #8C5946;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+
+a#box3 {
+
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: white;
+    height: 190px;
+    width: 380px;
+
+    margin-left: 50px;
+    margin-top: 13px;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+a#box3 h3 {
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+a#box3 img {
+    width: auto;
+    height: 25px;
+    padding-left: 10px;
+}
+
+#box4:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -4px;
+    z-index: 2;
+}
+
+#box4:before {
+    content: "";
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 190px;
+    background: #8C5946;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+
+a#box4 {
+
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: white;
+    height: 190px;
+    width: 380px;
+
+    margin-left: 50px;
+    margin-top: 13px;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+
+    position: absolute;
+
+    left: 620px;
+}
+
+a#box4 h3 {
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+
+a#box4 img {
+    width: auto;
+    height: 25px;
+    padding-left: 10px;
+
+}
+
+#box5:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -4px;
+    z-index: 2;
+}
+
+#box5:before {
+    content: "";
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 190px;
+    background: #8C5946;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    z-index: 1;
+
+}
+
+
+
+
+a#box5 {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: white;
+    height: 190px;
+    width: 380px;
+
+    margin-left: 50px;
+    margin-top: 13px;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+
+}
+
+a#box5 h3 {
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+
+
+
+a#box5 img {
+    width: auto;
+    height: 25px;
+    padding-left: 10px;
+}
+
+#box6:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -4px;
+    z-index: 2;
+}
+
+#box6:before {
+    content: "";
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 190px;
+    background: #8C5946;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    z-index: 1;
+
+}
+
+
+
+
+a#box6 {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: white;
+    height: 190px;
+    width: 380px;
+    margin-left: 50px;
+    margin-top: 13px;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+
+    position: absolute;
+
+    left: 620px;
+}
+
+a#box6 h3 {
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+
+
+
+
+a#box6 img {
+    width: auto;
+    height: 25px;
+    padding-left: 10px;
+}
+
+
+
+#result {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: none;
+
+}
+
+
+
+#recomend-box {
+
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 10px;
+
+}
+
+#result img {
+    width: 90px;
+    height: auto;
+
+}
+
+#space {
+    margin-right: 15px;
+}
+
+
+#result p {
+    font-size: 12px;
+    width: 160px;
+}
+
+#title {
+    font-weight: 600;
+    text-align: left;
+
+}
+
+#result_container1 {
+    /*border: solid 3px #ba9648;*/
+    display: inline-block;
+    margin: 10px;
+}
+
+#result_container2 {
+    /*border: solid 3px #c2b5d1;*/
+    display: inline-block;
+    margin: 10px;
+
+}
+
+#result_container3 {
+    /*border: solid 3px #ba7d8c;*/
+    display: inline-block;
+    margin: 10px;
+
+}
+
+#result_container4 {
+    /*border: solid 3px #797c85;*/
+    display: inline-block;
+    margin: 10px;
+}
+
+#result_container5 {
+    /*border: solid 3px #81a47a;*/
+    display: inline-block;
+    margin: 10px;
+}
+
+#result_container6 {
+    /*border: solid 3px #8b342a;*/
+    display: inline-block;
+    margin: 10px;
+}
+
+#result_container7 {
+    /*border: solid 3px #acb130;*/
+    display: inline-block;
+    margin: 10px;
+}
+
+#result_container8 {
+    /* border: solid 3px #87643e;*/
+    display: inline-block;
+    margin: 10px;
+}
+
+#result_container9 {
+    /*border: solid 3px #b8ac60;*/
+    display: inline-block;
+    margin: 10px;
+}
+
+#result_container_mix {
+    /* border: solid 3px #acae98;*/
+    display: inline-block;
+    margin: 10px;
+}
+
+
+
+@keyframes fade_in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+
+    }
+}
+
+#result.bl {
+    display: block;
+    animation: fade_in 2s both;
+}
+
+/*たたまれた後のタイトル表示*/
+a#box1.min:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    margin-top: -4px;
+
+}
+
+a#box1.min:before {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    content: "ジャンル";
+    padding-left: 8px;
+    padding-right: 29px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+
+a#box2.min:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    margin-top: -4px;
+
+}
+
+a#box2.min:before {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    content: "本の種類";
+    padding-left: 8px;
+    padding-right: 29px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+
+
+a#box3.min:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    margin-top: -4px;
+
+}
+
+a#box3.min:before {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    content: "新刊";
+    padding-left: 8px;
+    padding-right: 29px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+a#box4.min:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    margin-top: -4px;
+
+}
+
+a#box4.min:before {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    content: "芥川賞＆直木賞";
+    padding-left: 8px;
+    padding-right: 29px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+a#box5.min:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    margin-top: -4px;
+
+}
+
+a#box5.min:before {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    content: "本屋大賞";
+    padding-left: 8px;
+    padding-right: 29px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+a#box6.min:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    margin-top: -4px;
+
+}
+
+a#box6.min:before {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    content: "江戸川乱歩賞";
+    padding-left: 8px;
+    padding-right: 29px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+a#box7.min:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    margin-top: -4px;
+
+}
+
+a#box7.min:before {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    content: "爆笑マンガ特集";
+    padding-left: 8px;
+    padding-right: 29px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+a#box8.min:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    margin-top: -4px;
+
+}
+
+a#box8.min:before {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    content: "ジャニーズ嵐特集";
+    padding-left: 8px;
+    padding-right: 29px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+a#box9.min:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    margin-top: -4px;
+
+}
+
+a#box9.min:before {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    content: "秋の夜長のお供に";
+    padding-left: 8px;
+    padding-right: 29px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+/*変化*/
+
+
+a#box1.ck {
+    width: 560px;
+    /*animation: fade_out 1s both;
+    animation-delay: 4s;*/
+
+}
+
+
+a#box1.min {
+    width: 50px;
+    animation: fade_out 1s both;
+    animation-delay: 2s;
+
+}
+
+a#box2.ck {
+    width: 500px;
+    /*animation: fade_out 1s both;
+    animation-delay: 4s;*/
+}
+
+a#box2.min {
+    width: 50px;
+    animation: fade_out 1s both;
+    animation-delay: 2s;
+
+}
+
+a#box3.ck {
+    width: 560px;
+    /* animation: fade_out 1s both;
+    animation-delay: 4s;*/
+}
+
+
+a#box3.min {
+    width: 50px;
+    animation: fade_out 1s both;
+    animation-delay: 2s;
+
+}
+
+
+a#box4.ck {
+    width: 560px;
+    /*animation: fade_out 1s both;
+    animation-delay: 4s;*/
+}
+
+a#box4.min {
+    width: 50px;
+    animation: fade_out 1s both;
+    animation-delay: 2s;
+
+}
+
+
+a#box5.ck {
+    width: 560px;
+    /*animation: fade_out 1s both;
+    animation-delay: 4s;*/
+}
+
+a#box5.min {
+    width: 50px;
+    animation: fade_out 1s both;
+    animation-delay: 2s;
+
+}
+
+
+a#box6.ck {
+    width: 560px;
+    /*animation: fade_out 1s both;
+    animation-delay: 4s;*/
+}
+
+a#box6.min {
+    width: 50px;
+    animation: fade_out 1s both;
+    animation-delay: 2s;
+
+}
+
+
+/*タイムバー設定*/
+#time_bar1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0367A6;
+    width: 0px;
+    height: 12px;
+}
+
+#time_bar1.fi {
+    animation: timer 0.3s both;
+
+}
+
+#time_bar2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0367A6;
+    width: 0px;
+    height: 12px;
+}
+
+#time_bar2.fi {
+    animation: timer 2s both;
+}
+
+#time_bar3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0367A6;
+    width: 0px;
+    height: 12px;
+}
+
+#time_bar3.fi {
+    animation: timer 2s both;
+}
+
+#time_bar4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0367A6;
+    width: 0px;
+    height: 12px;
+}
+
+#time_bar4.fi {
+    animation: timer 2s both;
+}
+
+#time_bar5 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0367A6;
+    width: 0px;
+    height: 12px;
+}
+
+#time_bar5.fi {
+    animation: timer 2s both;
+}
+
+#time_bar6 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0367A6;
+    width: 0px;
+    height: 12px;
+}
+
+#time_bar6.fi {
+    animation: timer 2s both;
+}
+
+#time_bar7 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0367A6;
+    width: 0px;
+    height: 12px;
+}
+
+#time_bar7.fi {
+    animation: timer 2s both;
+}
+
+#time_bar8 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0367A6;
+    width: 0px;
+    height: 12px;
+}
+
+#time_bar8.fi {
+    animation: timer 2s both;
+}
+
+#time_bar9 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0367A6;
+    width: 0px;
+    height: 12px;
+}
+
+#time_bar9.fi {
+    animation: timer 2s both;
+}
+
+input[type=checkbox] {
+    display: none;
+
+}
+
+.checkbox01 {
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 5px 30px;
+    position: relative;
+    width: auto;
+
+}
+
+.checkbox01::before {
+    background: #fff;
+    border: 1px solid #231815;
+    content: '';
+    display: block;
+    height: 16px;
+    left: 5px;
+    margin-top: -8px;
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    width: 16px;
+    border-radius: 3px;
+
+}
+
+.checkbox01::after {
+    border-right: 3px solid #0367A6;
+    border-bottom: 3px solid #0367A6;
+    content: '';
+    display: block;
+    height: 9px;
+    left: 10px;
+    margin-top: -7px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transform: rotate(45deg);
+    width: 5px;
+
+}
+
+input[type=checkbox]:checked + .checkbox01::after {
+    opacity: 1;
+
+}
+
+#box1.bye {
+    animation: fade_out 0.4s both;
+}
+
+#box2.bye {
+    animation: fade_out 0.4s both;
+}
+
+#box3.bye {
+    animation: fade_out 0.4s both;
+}
+
+#box4.bye {
+    animation: fade_out 0.4s both;
+}
+
+#box5.bye {
+    animation: fade_out 0.4s both;
+}
+
+#box6.bye {
+    animation: fade_out 0.4s both;
+}
+
+#recomend-box img {
+    height: 150px;
+    width: auto;
+}
+
+#text-box {
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+}
+
+#text-box p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
